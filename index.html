@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+<body>
+    <h1>Markdown Previewer</h1>
+        <!-- Main container that holds the editor (textarea) and preview section -->
+        <div class="container">
+            <!-- Textarea for user input, where Markdown will be written -->
+            <textarea id="editor" placeholder="Type your markdown here..."></textarea>
+    
+            <!-- Div where the rendered HTML preview of the Markdown will be displayed -->
+            <div id="preview"></div>
+        </div>
+    
+        <!-- Button to clear the editor and preview -->
+        <button id="clear">Clear</button>
+    <script src="script.js"></script>
+</body>
+</html>
